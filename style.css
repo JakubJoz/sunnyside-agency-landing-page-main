@@ -86,5 +86,13 @@ h1{
 }
 
 .arrow{
+    animation-name: arrow;
     animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes arrow {
+    from {transform: translateY(0px);}
+    to {transform: translateY(80px);}
 }
